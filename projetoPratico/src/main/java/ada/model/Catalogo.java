@@ -8,7 +8,6 @@ public class Catalogo {
     private List<Ator> atores;
     private List<Diretor> diretores;
 
-
     public Catalogo() {
         this.filmes = new ArrayList<>();
         this.atores = new ArrayList<>();
@@ -37,5 +36,14 @@ public class Catalogo {
 
     public void setDiretores(List<Diretor> diretores) {
         this.diretores = diretores;
+    }
+
+    @Override
+    public String toString() {
+        return "Catalogo{" +
+                "filmes=" + filmes +
+                ", atores=" + atores +
+                ", diretores=" + diretores +
+                '}';
     }
 }
