@@ -1,4 +1,4 @@
-package java.model;
+package ada.model;
 
 public class Diretor {
     private String nome;
@@ -13,5 +13,12 @@ public class Diretor {
 
     public void setNome(String nome) {
         this.nome=nome;
+    }
+
+    @Override
+    public String toString() {
+        return "Diretor{" +
+                "nome='" + nome + '\'' +
+                '}';
     }
 }

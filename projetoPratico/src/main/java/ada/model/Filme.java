@@ -1,4 +1,4 @@
-package java.model;
+package ada.model;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -10,7 +10,7 @@ public class Filme {
     private String descricao;
     private Diretor diretor;
     private List<Ator> atores;
-    Enum Genero;
+    private Enum Genero;
 
     public Filme(String nome, LocalDate dataLancamento, double orcamento, String descricao, Diretor diretor, List<Ator> atores, Enum genero) {
         this.nome = nome;
@@ -77,5 +77,17 @@ public class Filme {
     public void setGenero(Enum genero) {
         Genero = genero;
     }
-}
 
+    @Override
+    public String toString() {
+        return "Filme{" +
+                "nome='" + nome + '\'' +
+                ", dataLancamento=" + dataLancamento +
+                ", orcamento=" + orcamento +
+                ", descricao='" + descricao + '\'' +
+                ", diretor=" + diretor +
+                ", atores=" + atores +
+                ", Genero=" + Genero +
+                '}';
+    }
+}
