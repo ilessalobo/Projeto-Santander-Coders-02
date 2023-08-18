@@ -9,7 +9,7 @@ Projeto pratico. <h5>- Turma 1000 equipe 2<h5>
 <ul>
 <li>Ilessa Lobo</li>
 <li>Victor Hugo</li>
-<li>Telmo</li>
+<li>Telmo Jr</li>
 </ul>
 </div>
 <br>
