@@ -36,7 +36,7 @@ public class Main {
                     sair = true;
                     break;
                 default:
-                    System.out.println("Opção inválida.");
+                    System.out.println("Opção inválida!");
             }
         }
     }

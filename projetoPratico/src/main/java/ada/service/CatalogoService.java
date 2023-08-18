@@ -15,6 +15,7 @@ public class CatalogoService {
 
     public void cadastrarFilme() {
     }
+
     public void cadastrarAtor() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o nome do ator: ");

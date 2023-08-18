@@ -8,6 +8,7 @@ public class Catalogo {
     private List<Ator> atores;
     private List<Diretor> diretores;
 
+
     public Catalogo() {
         this.filmes = new ArrayList<>();
         this.atores = new ArrayList<>();
