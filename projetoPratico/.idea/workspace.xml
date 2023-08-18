@@ -4,22 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1216286f-dfc9-43a4-9df2-9436fa2dd7e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ada/enums/Genero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ada/model/Ator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ada/model/Diretor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ada/model/Filme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/Projeto-Santander-Coders-02.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/java/enums/Genero.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/java/model/Ator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/java/model/Diretor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/java/model/Filme.java" beforeDir="false" />
+    <list default="true" id="1216286f-dfc9-43a4-9df2-9436fa2dd7e3" name="Changes" comment="Lógica dos métodos cadastrar Ator e Diretor, criação classe Catalogo CatalogoService e update Main">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +39,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/User/Documents/SantanderCoder/Projeto-Santander-Coders-02/projetoPratico",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,7 +51,9 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="ada.exec.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="20" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="ada.exec.Main" />
       <module name="projetoPratico" />
       <extension name="coverage">
@@ -79,7 +68,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ada.exec.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -93,9 +82,33 @@
       <updated>1692366192236</updated>
       <workItem from="1692366193581" duration="923000" />
     </task>
+    <task id="LOCAL-00001" summary="Lógica dos métodos cadastrar Ator e Diretor, criação classe Catalogo CatalogoService e update Main">
+      <option name="closed" value="true" />
+      <created>1692382918891</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692382918891</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lógica dos métodos cadastrar Ator e Diretor, criação classe Catalogo CatalogoService e update Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lógica dos métodos cadastrar Ator e Diretor, criação classe Catalogo CatalogoService e update Main" />
   </component>
 </project>
