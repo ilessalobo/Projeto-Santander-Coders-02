@@ -6,6 +6,7 @@ import ada.model.Catalogo;
 import ada.model.Diretor;
 import ada.model.Filme;
 
+import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
@@ -35,20 +36,18 @@ public class CatalogoService {
                 System.out.println("Data inválida. Por favor, digite novamente.");
             }
         }
-        double orcamento = -1;
-        while (orcamento < 0) {
+        BigDecimal orcamento = null;
+        boolean orcamentoValido = false;
+        while (!orcamentoValido) {
             System.out.println("Digite o orçamento do filme: ");
+            String orcamentoStr = scanner.nextLine();
             try {
-                orcamento = scanner.nextDouble();
-                if (orcamento < 0) {
-                    System.out.println("Orçamento inválido. Por favor, digite novamente.");
-                }
-            } catch (InputMismatchException e) {
+                orcamento = new BigDecimal(orcamentoStr);
+                orcamentoValido = true;
+            } catch (NumberFormatException e) {
                 System.out.println("Orçamento inválido. Por favor, digite novamente.");
-                scanner.nextLine();
             }
         }
-        scanner.nextLine();
         System.out.println("Digite a descrição do filme: ");
         String descricao = scanner.nextLine();
         System.out.println("Digite o nome do diretor do filme: ");

@@ -1,18 +1,19 @@
 package ada.model;
 
+import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.List;
 
 public class Filme {
     private String nome;
     private LocalDate dataLancamento;
-    private double orcamento;
+    private BigDecimal orcamento;
     private String descricao;
     private Diretor diretor;
     private List<Ator> atores;
     private Enum Genero;
 
-    public Filme(String nome, LocalDate dataLancamento, double orcamento, String descricao, Diretor diretor, List<Ator> atores, Enum genero) {
+    public Filme(String nome, LocalDate dataLancamento, BigDecimal orcamento, String descricao, Diretor diretor, List<Ator> atores, Enum genero) {
         this.nome = nome;
         this.dataLancamento = dataLancamento;
         this.orcamento = orcamento;
@@ -38,11 +39,11 @@ public class Filme {
         this.dataLancamento = dataLancamento;
     }
 
-    public double getOrcamento() {
+    public BigDecimal getOrcamento() {
         return orcamento;
     }
 
-    public void setOrcamento(double orcamento) {
+    public void setOrcamento(BigDecimal orcamento) {
         this.orcamento = orcamento;
     }
 
